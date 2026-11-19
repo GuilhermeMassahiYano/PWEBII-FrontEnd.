@@ -1,0 +1,51 @@
+<h1>Seja bem vindo ao aquário!</h1>
+
+<h4 class="text-danger">{{anuncio}}</h4>
+
+<br><br>
+
+<div class="row">
+
+  <!-- PRIMEIRA COLUNA -->
+  <div class="col">
+
+    <app-card-produto
+      [foto]="foto"
+      [nomeProduto]="nomeProduto1"
+      [promocao]="promocao"
+      [idProduto]="idProduto"
+      [dataNascimento]="dataNascimento"
+      [precoProduto]="precoProduto">
+    </app-card-produto>
+
+  </div>
+
+  <!-- SEGUNDA COLUNA -->
+  <div class="col">
+
+    <app-card-produto
+      [foto]="foto1"
+      [nomeProduto]="nomeProduto2"
+      [promocao]="promocao"
+      [idProduto]="idProduto1"
+      [dataNascimento]="dataNascimento2"
+      [precoProduto]="precoProduto1">
+    </app-card-produto>
+
+  </div>
+
+  <!-- TERCEIRA COLUNA -->
+  <div class="col">
+
+    <app-card-produto
+      [foto]="foto2"
+      [nomeProduto]="nomeProduto3"
+      [promocao]="promocao"
+      [idProduto]="idProduto2"
+      [dataNascimento]="dataNascimento3"
+      [precoProduto]="precoProduto2">
+    </app-card-produto>
+
+  </div>
+
+</div>
